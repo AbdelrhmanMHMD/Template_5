@@ -662,6 +662,7 @@ textarea {
 	border-radius: 4px;
 	transition: all var(--main-transition);
 	left: -30px;
+	top: 50%;
 }
 .widgets-control .control label::before {
 	content: "";
