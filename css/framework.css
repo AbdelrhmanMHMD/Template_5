@@ -1,0 +1,216 @@
+:root {
+	--main-transition: 0.3s;
+	--main-shadow: 0px 0px 12px -5px rgba(94, 94, 94, 1);
+	--blue-color: #0075ff;
+	--blue-alt-color: #0d69d5;
+	--orange-color: #f59e0b;
+	--green-color: #22c55e;
+	--red-color: #f44336;
+	--grey-color: #888;
+}
+/* START Box */
+.d-grid {display: grid;}
+.d-flex {display: flex;}
+.d-block {display: block;}
+
+.shadow{box-shadow: 0px 0px 12px -5px rgba(94, 94, 94, 1);}
+
+.g-20 {gap: 20px;}
+.g-15 {gap: 15px;}
+.g-10 {gap: 10px;}
+.g-5 {gap: 5px;}
+
+.align-c {align-items: center;}
+.justify-c {justify-content: center;}
+
+@media (max-width: 767px) {.hide-mobile {display: none;}}
+/* END Box */
+/* START Position */
+.p-relative {position: relative;}
+
+/* END Position */
+/* START Border */
+.b-none {border: none;}
+.border-eee{
+    border: 1px solid #eee;
+}
+
+.rad-circle {border-radius: 50%;}
+.rad-10 {border-radius: 10px;}
+.rad-6 {border-radius: 6px;}
+/* END Border */
+/* START Padding + Margin */
+.p-20 {padding: 20px;}
+.p-15 {padding: 15px;}
+.p-10 {padding: 10px;}
+.p-5 {padding: 5px;}
+.p-0 {padding: 0px;}
+
+.pt-20 {padding-top: 20px;}
+.pt-15 {padding-top: 15px;}
+.pt-10 {padding-top: 10px;}
+.pt-5 {padding-top: 5px;}
+.pt-0 {padding-top: 0px;}
+
+.pr-20 {padding-right: 20px;}
+.pr-15 {padding-right: 15px;}
+.pr-10 {padding-right: 10px;}
+.pr-5 {padding-right: 5px;}
+.pr-0 {padding-right: 0px;}
+
+.pb-20 {padding-bottom: 20px;}
+.pb-15 {padding-bottom: 15px;}
+.pb-10 {padding-bottom: 10px;}
+.pb-5 {padding-bottom: 5px;}
+.pb-0 {padding-bottom: 0px;}
+
+.pl-20 {padding-left: 20px;}
+.pl-15 {padding-left: 15px;}
+.pl-10 {padding-left: 10px;}
+.pl-5 {padding-left: 5px;}
+.pl-0 {padding-left: 0px;}
+
+.m-20 {margin: 20px;}
+.m-15 {margin: 15px;}
+.m-10 {margin: 10px;}
+.m-5 {margin: 5px;}
+.m-0 {margin: 0px;}
+
+.mt-20 {margin-top: 20px;}
+.mt-15 {margin-top: 15px;}
+.mt-10 {margin-top: 10px;}
+.mt-5 {margin-top: 5px;}
+.mt-0 {margin-top: 0;}
+
+.mr-20 {margin-right: 20px;}
+.mr-15 {margin-right: 15px;}
+.mr-10 {margin-right: 10px;}
+.mr-5 {margin-right: 5px;}
+.mr-0 {margin-right: 0px;}
+
+.mb-25 {margin-bottom: 25px;}
+.mb-20 {margin-bottom: 20px;}
+.mb-15 {margin-bottom: 15px;}
+.mb-10 {margin-bottom: 10px;}
+.mb-5 {margin-bottom: 5px;}
+.mb-0 {margin-bottom: 0;}
+
+.ml-20 {margin-left: 20px;}
+.ml-15 {margin-left: 15px;}
+.ml-10 {margin-left: 10px;}
+.ml-5 {margin-left: 5px;}
+.ml-0 {margin-left: 0;}
+/* END Padding + Margin */
+/* START Colors */
+.bg-white {background-color: white;}
+.bg-grey {background-color: var(--grey-color);}
+.bg-blue {background-color: var(--blue-color);}
+.bg-blue-alt {background-color: var(--blue-alt-color);}
+.bg-green {background-color: var(--green-color);}
+.bg-grey {background-color: var(--grey-color);}
+.bg-red {background-color: var(--red-color);}
+.bg-orange {background-color: var(--orange-color);}
+.bg-eee {background-color: #eee;}
+
+.c-white{color:white;}
+.c-black {color: black;}
+.c-grey {color: var(--grey-color);}
+.c-blue {color: var(--blue-color);}
+.c-blue-alt {color: var(--blue-alt-color);}
+.c-green {color: var(--green-color);}
+.c-grey {color: var(--grey-color);}
+.c-red {color: var(--red-color);}
+.c-orange {color: var(--orange-color);}
+/* END Colors */
+/* START Text */
+.txt-c {text-align: center;}
+@media (max-width: 767px) {.txt-c-mobile {text-align: center;}}
+.txt-r {text-align: right;}
+
+.fs-13 {font-size: 13px;}
+.fs-14 {font-size: 14px;}
+.fs-20 {font-size: 20px;}
+
+.fw-bold {font-weight: bold;}
+/* END Text */
+
+/* START Width + Height */
+.w-full {width: 100%;}
+.h-full{height:100%;}
+/* END Width + Height */
+
+/* START Component */
+.flex-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/* END Component */
+
+/* START Component */
+.btn {
+	display: block;
+	padding: 6px 10px;
+	color: white;
+	width: fit-content;
+	transition: all var(--main-transition);
+	cursor: pointer;
+    border-radius: 6px;
+}
+/* END Component */
+/* START Component */
+.tip {
+	background-color: #eee;
+	padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+}
+/* END Component */
+
+/* START Component */
+.flex-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* END Component */
+/* START Component */
+label .toggle-check-input {
+	-webkit-appearance: none;
+	appearance: none;
+    display: none;
+}
+label .toggle-check {
+    background-color: #ccc;
+	width: 70px;
+	height: 30px;
+	border-radius: 15px;
+    transition: all var(--main-transition);
+    cursor: pointer;
+}
+label .toggle-check-input:checked + .toggle-check{
+    background-color: var(--blue-color);
+}
+label .toggle-check::before {
+    font-family: var(--fa-style-family-classic);
+    content: "\f00d";
+    font-weight: 900;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    color: #ccc;
+    border-radius: 50%;
+    left: 4px;
+    top: 4px;
+    transition: all var(--main-transition);
+}
+label .toggle-check-input:checked + .toggle-check::before {
+    left: 44px;
+    content: "\f00c";
+    color: var(--blue-color);
+}
+/* END Component */
