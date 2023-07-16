@@ -666,7 +666,7 @@ textarea {
 }
 .widgets-control .control label::before {
 	content: "";
-	width: 15px;
+	/* width: 15px; */
 	height: 15px;
 	border: 2px solid var(--grey-color);
 	transform: translateY(-50%);
